@@ -8,6 +8,7 @@ src/models/Guest.js
 src/models/VIPGuest.js
 src/services/EventService.js
 src/services/GuestService.js
-
+src/services/EventService.test.js
+src/utils/logClass.js
 
 
