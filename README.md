@@ -23,12 +23,4 @@ Tesztelés: készíts jest keretrendszerrel unit teszteket, amnennyiben nem konf
 Decoratorok: Használj decoratorokat az osztályok és metódusok funkcionalitásának kiterjesztésére, például az rendezvények logolására (a kód elég, config/működés nem kell)
 Aszinkronitás: Implementálj Promise-okat és/vagy async/await szintaxist az aszinkron műveletek kezelésére, például az objektumok létrehozására - csak hibakezelés végett alkalmazd
 
-
-Az én megoldásom:
-
--> Event class, amivel létrehozunk egy adott eseményt,mivel később több különböző eseményt is szeretnénk létrehozni, ezért meghatároztam az IEvent.ts-ben ezen események kötelező szerződését
-
--> EventService class, amiben az események szerkesztése válik lehetségessé,
-
--> Guest class, és IGuest interface
  
