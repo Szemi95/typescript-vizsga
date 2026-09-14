@@ -1,5 +1,7 @@
 import { IEvent } from "../interfaces/IEvent";
+import { LogClass } from "../utils/logClass";
 
+@LogClass
 export class Event implements IEvent{
     public id: number;
     public name: string;
