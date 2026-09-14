@@ -2,5 +2,9 @@ node_modules/
 index.html
 index.js
 src/models/Event.js
+src/models/Guest.js
 src/interfaces/IEvent.js
+src/interfaces/IGuest.js
 src/services/EventService.js
+src/services/GuestService.js
+
