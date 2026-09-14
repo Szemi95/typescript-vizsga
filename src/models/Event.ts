@@ -1,5 +1,7 @@
-export class Event{
-    private id: number;
+import { IEvent } from "../interfaces/IEvent.js";
+
+export class Event implements IEvent{
+    public id: number;
     public name: string;
     public place: string;
     public date: Date;
