@@ -1,7 +1,7 @@
-import { Event } from "./models/Event.js";
-import { Guest } from "./models/Guest.js";
-import { EventService } from "./services/EventService.js";
-import { GuestService } from "./services/GuestService.js";
+import { Event } from "./models/Event";
+import { Guest } from "./models/Guest";
+import { EventService } from "./services/EventService";
+import { GuestService } from "./services/GuestService";
 
 const eventService = new EventService();
 
@@ -51,3 +51,4 @@ console.log(guestService.getGuestsOfEvent(1));
 guestService.removeGuestFromEvent(1, "Ka Pál");
 
 console.log(guestService.getGuestsOfEvent(1));
+

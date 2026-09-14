@@ -1,4 +1,4 @@
-import { IGuest } from "../interfaces/IGuest.js";
+import { IGuest } from "../interfaces/IGuest";
 
 export class Guest implements IGuest {
     public name: string;

@@ -1,4 +1,4 @@
-import { IEvent } from "../interfaces/IEvent.js";
+import { IEvent } from "../interfaces/IEvent";
 
 export class Event implements IEvent{
     public id: number;

@@ -1,5 +1,5 @@
-import { EventService } from "./EventService.js";
-import { Guest } from "../models/Guest.js";
+import { EventService } from "./EventService";
+import { Guest } from "../models/Guest";
 
 export class GuestService {
     private eventService: EventService;
