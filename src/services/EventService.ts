@@ -1,6 +1,6 @@
 import { Event } from "../models/Event.js";
 
-class EventService{
+export class EventService{
     
     public events: Map<number, Event>;
 
