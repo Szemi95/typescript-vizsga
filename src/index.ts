@@ -2,10 +2,11 @@ import { Event } from "./models/Event";
 import { Guest } from "./models/Guest";
 import { EventService } from "./services/EventService";
 import { GuestService } from "./services/GuestService";
+import { VIPGuest } from "./models/VIPGuest";
 
 const eventService = new EventService();
 
-const event = eventService.createEvent(
+eventService.createEvent(
     1,
     "Születésnap",
     "Budapest",
@@ -52,3 +53,20 @@ guestService.removeGuestFromEvent(1, "Ka Pál");
 
 console.log(guestService.getGuestsOfEvent(1));
 
+eventService.editEvent(1, "Mesi születésnapja");
+
+console.log(eventService.getAllEvents());
+
+eventService.deleteEvent(3);
+
+console.log(eventService.getAllEvents());
+
+const vipGuest = new VIPGuest(
+    "Nagy Anna",
+    29,
+    "+36301234567",
+    "anna@email.com",
+    3
+);
+
+console.log(vipGuest);
