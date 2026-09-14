@@ -2,3 +2,5 @@ node_modules/
 index.html
 index.js
 src/models/Event.js
+src/interfaces/IEvent.js
+src/services/EventService.js
