@@ -30,5 +30,5 @@ Az én megoldásom:
 
 -> EventService class, amiben az események szerkesztése válik lehetségessé,
 
--> Guest class, 
+-> Guest class, és IGuest interface
  
