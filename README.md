@@ -1,6 +1,5 @@
 2026-Typescript Vizsga - Szitkó Emese Jusztina
 
-
 Komplett Vizsgafeladat: Rendezvény (fesztivál) Kezelő Rendszer
 Rendzevény: lehet bármi, szülinap, családi, fesztivál, koncert stb...
 
@@ -23,3 +22,11 @@ Plusz feladat (nem kötelező! Csak akkor kezd el ha megvan az alap feladat!) :
 Tesztelés: készíts jest keretrendszerrel unit teszteket, amnennyiben nem konfigurálod, nem gond, elég ha szükséges test file megvan, benne pár példa tesztel.
 Decoratorok: Használj decoratorokat az osztályok és metódusok funkcionalitásának kiterjesztésére, például az rendezvények logolására (a kód elég, config/működés nem kell)
 Aszinkronitás: Implementálj Promise-okat és/vagy async/await szintaxist az aszinkron műveletek kezelésére, például az objektumok létrehozására - csak hibakezelés végett alkalmazd
+
+
+Az én megoldásom:
+
+-> egy Event class, amivel létrehozunk egy adott eseményt, 
+  - mivel később több eseményt is szeretnénk létrehozni, ezért meghatároztam az IEvent.ts-ben ezen események kötelező szerződését
+-> EventService class, amiben az események szerkesztése válik lehetségessé,
+ 
