@@ -26,7 +26,7 @@ Aszinkronitás: Implementálj Promise-okat és/vagy async/await szintaxist az as
 
 Az én megoldásom:
 
--> Event class, amivel létrehozunk egy adott eseményt,mivel később több eseményt is szeretnénk létrehozni, ezért meghatároztam az IEvent.ts-ben ezen események kötelező szerződését
+-> Event class, amivel létrehozunk egy adott eseményt,mivel később több különböző eseményt is szeretnénk létrehozni, ezért meghatároztam az IEvent.ts-ben ezen események kötelező szerződését
 
 -> EventService class, amiben az események szerkesztése válik lehetségessé,
 
